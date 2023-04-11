@@ -1,0 +1,143 @@
+/* Для всего документа */
+* {
+    box-sizing: border-box; 
+    font-family: "Montserrat", sans-serif;
+} 
+
+h1 {
+    font-weight: 700;
+    font-size: 54px;
+  
+}
+  
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+}
+  
+p {
+    font-size: 18px;
+    line-height: 28px;
+   
+}
+
+/* Шапка */
+.header {
+    height: 144px;
+    display: flex;
+    background: #424a57; 
+   
+}
+.logo-image {
+    margin-top: 50px;
+}
+
+.nav-link {
+    color: #A6A8AD;
+}
+
+
+.nav-item button {
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    color: #faf9f9;
+
+}
+
+.nav-item{
+    margin-left: 50px;
+
+}
+
+button:hover {
+    background: #01616c;
+  
+}
+  
+.auth .login {
+    width: 150px;
+  
+}
+
+// Контент
+
+header > img {
+    width: 190px;
+    height: 32px; 
+}
+  
+.popup {
+    display: none; 
+}
+  
+.list-img{
+
+    width: 50px;
+    margin-left: 60px;
+}
+.col-1{
+
+    padding: 0;
+}
+nav a {
+    padding-right: 32px;
+    color: #FAF9F9;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+}
+  
+.IMG {
+    margin-top: 27px;
+    height: 450px; 
+    width: 100%;
+    object-fit: cover;
+}
+.text {
+    padding-bottom: 27px; 
+    margin-top: 27px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.text p {
+      font-size: 27px;
+      height: 152px; 
+}
+  
+button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    width: 251px;
+    height: 52px;
+    background: #0096a7;
+    border-radius: 50px;
+    cursor: pointer; 
+}
+    
+.features {
+    margin-top: 20px;
+}
+
+.benefits img {
+      width: 400px;
+      height: 317px;
+      margin-right: 20px;
+      margin-left: 20px; 
+}
+  
+/* Подвал */
+.icons img {
+      width: 50px;
+      height: 50px; 
+}
+
+@media(max-width: 1200px){
+    .logo-image,.list-img{
+        display: none;
+
+    }
+}
+  
