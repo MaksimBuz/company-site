@@ -31,9 +31,8 @@ p {
 .logo-image {
     margin-top: 50px;
 }
-
-.nav-link {
-    color: #A6A8AD;
+.navbar-nav a.nav-link.active:hover{
+    color: #ca0c0c;
 }
 
 
@@ -47,6 +46,7 @@ p {
 
 .nav-item{
     margin-left: 50px;
+
 
 }
 
